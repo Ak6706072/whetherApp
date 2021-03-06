@@ -32,7 +32,7 @@ export default function App() {
         console.log("sdsdfsj", err);
         setWhetherData({
           data: "Somthing went Wrong with the API services"
-        });
+        }); 
       });
   };
   useEffect(() => {
