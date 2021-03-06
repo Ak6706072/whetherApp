@@ -29,10 +29,7 @@ export default function App() {
       })
       .catch((err) => {
         //optional part catch
-        console.log("sdsdfsj", err);
-        setWhetherData({
-          data: "Somthing went Wrong with the API services"
-        }); 
+        console.log("Error in city name");
       });
   };
   useEffect(() => {
