@@ -20,6 +20,6 @@ export default function CityWhether(props) {
       </div>
     );
   } else {
-    return <div> City name is not find?</div>;
+    return <div> Not Found City Name ?? </div>;
   }
 }
